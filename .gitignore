@@ -1,0 +1,15 @@
+# Directories
+coverage/
+node_modules/
+
+# Files
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea
+.project
+.ropeproject
+.sublime-project
+.sublime-workspace
+.vscode

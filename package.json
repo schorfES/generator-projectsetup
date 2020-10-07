@@ -1,0 +1,32 @@
+{
+  "name": "generator-projectsetup",
+  "version": "0.1.0",
+  "description": "A yeoman generator to setup projects based on a remote config",
+  "author": "Norman Rusch",
+  "license": "MIT",
+  "homepage": "https://github.com/schorfES/generator-projectsetup#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schorfES/generator-projectsetup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schorfES/generator-projectsetup/issues"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "simple-git": "^2.21.0",
+    "yeoman-generator": "^4.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "yarn": "^1.22.10",
+    "yo": "^3.1.1"
+  }
+}
