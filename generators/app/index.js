@@ -39,12 +39,12 @@ module.exports = class extends Generator {
 	}
 
 	async writing() {
-		this._runBeforeAll();
-		this._runAll();
+		await this._runBeforeAll();
+		await this._runAll();
 	}
 
 	async end() {
-		this._runAfterAll();
+		await this._runAfterAll();
 	}
 
 	async _init() {
