@@ -22,7 +22,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "simple-git": "^2.21.0",
-    "yeoman-generator": "^4.12.0"
+    "yeoman-generator": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "^7.12.1",
