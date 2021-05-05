@@ -3,8 +3,10 @@ const os = require('os');
 const path = require('path');
 
 const chalk = require('chalk');
+const _ = require('lodash');
 const SimpleGit = require('simple-git');
 const Generator = require('yeoman-generator');
+const GeneratorInstallActions = require('yeoman-generator/lib/actions/install');
 
 const { getTodos } = require('./utils/todos');
 
@@ -18,6 +20,9 @@ const FILE_CONFIG = 'projectsetup.config.js';
 
 const GIT_DEFAULT_REMOTE = 'origin';
 const GIT_DEFAULT_BRANCH = 'main';
+
+// @FIXME: Seriously? https://github.com/yeoman/generator/releases/tag/v5.0.0
+_.extend(Generator.prototype, GeneratorInstallActions);
 
 module.exports = class extends Generator {
 

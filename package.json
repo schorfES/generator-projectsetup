@@ -21,6 +21,7 @@
   "scripts": {},
   "dependencies": {
     "chalk": "^4.1.0",
+    "lodash": "^4.17.21",
     "simple-git": "^2.21.0",
     "yeoman-generator": "^5.0.1"
   },
