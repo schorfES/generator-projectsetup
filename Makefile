@@ -8,7 +8,7 @@ validate:
 
 
 tests:
-	echo "Sorry, no tests jet"
+	echo "Sorry, no tests yet"
 
 
 release:
