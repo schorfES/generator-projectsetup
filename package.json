@@ -1,6 +1,6 @@
 {
   "name": "generator-projectsetup",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A yeoman generator to setup projects based on a remote config",
   "author": "Norman Rusch",
   "license": "MIT",
