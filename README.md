@@ -2,6 +2,10 @@
 
 A yeoman generator to set up projects based on a remote config. The config will be hosted and maintained separately in another git repository. That means you don't need to stick to a single purpose generator and can create a customized one based on your needs.
 
+## Generator
+
+The projectsetup generator depends on the `yeoman-generator` in version 4.x. Read the [API documentation for v4.x](https://yeoman.github.io/generator/4.x/) for supported features.
+
 ## Installation
 
 At first, you need to install [yeoman](https://yeoman.io/learning/index.html).
@@ -79,7 +83,7 @@ The generator will call these functions (if defined) by each task that is releva
 | property    | description |
 |-------------|-------------|
 | `config`    | The merged configuration, based on the user answers of all tasks. |
-| `generator` | The reference to the yeoman generator. This instance contains the yeoman [api functions](https://yeoman.github.io/generator/) that can be used to implement the custom code for each task. |
+| `generator` | The reference to the yeoman generator. This instance contains the yeoman [api functions](https://yeoman.github.io/generator/4.x/) that can be used to implement the custom code for each task. |
 | `dir`       | The location where the config code is located after a git clone. |
 | `task`      | The corresponding task definition form the config file. |
 | `todos`     | The list of task definitions based on the route of decisions. |

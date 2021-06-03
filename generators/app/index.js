@@ -21,9 +21,6 @@ const FILE_CONFIG = 'projectsetup.config.js';
 const GIT_DEFAULT_REMOTE = 'origin';
 const GIT_DEFAULT_BRANCH = 'main';
 
-// @FIXME: Seriously? https://github.com/yeoman/generator/releases/tag/v5.0.0
-_.extend(Generator.prototype, GeneratorInstallActions);
-
 module.exports = class extends Generator {
 
 	constructor(args, options) {
