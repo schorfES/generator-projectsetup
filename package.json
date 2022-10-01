@@ -22,7 +22,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "lodash": "^4.17.21",
-    "simple-git": "^2.21.0",
+    "simple-git": "^3.14.1",
     "yeoman-generator": "^4.13.0"
   },
   "devDependencies": {
