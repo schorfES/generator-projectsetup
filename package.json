@@ -26,7 +26,7 @@
     "yeoman-generator": "^4.13.0"
   },
   "devDependencies": {
-    "eslint": "^7.12.1",
+    "eslint": "^8.33.0",
     "release-it": "^14.2.1",
     "yarn": "^1.22.10",
     "yo": "^4.2.0"
